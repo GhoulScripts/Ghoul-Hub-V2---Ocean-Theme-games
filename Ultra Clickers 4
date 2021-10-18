@@ -73,11 +73,6 @@
     end)
 
 
-    TeleportsSection:NewButton("Secret World", "Teleports you to the Secret World.", function()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19421.334, -210.606796, -1684.5957, 0.629923582, -4.44061712e-08, 0.776657104, 7.94103894e-09, 1, 5.0735288e-08, -0.776657104, -2.57918895e-08, 0.629923582)
-    end)
-
-
     TeleportsSection:NewButton("Desert", "Teleports you to the Desert.", function()
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-56.5558472, -25.5661678, 483.582703, -0.0372464657, 6.65825617e-09, 0.999306083, 6.52232213e-10, 1, -6.63856925e-09, -0.999306083, 4.0451642e-10, -0.0372464657)
     end)
