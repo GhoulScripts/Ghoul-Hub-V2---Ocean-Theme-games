@@ -163,8 +163,9 @@ local a = require(gun)
 a.MaxAmmo = math.huge
 a.CurrentAmmo = math.huge
 a.FireRate = 0
-a.Range = 4000
-a.Bullets = 10
+a.Range = 9999
+a.Bullets = 1
+a.ReloadTime = 0
     end)
 
 
@@ -177,8 +178,9 @@ local a = require(gun)
 a.MaxAmmo = math.huge
 a.CurrentAmmo = math.huge
 a.FireRate = 0
-a.Range = 4000
-a.Bullets = 10
+a.Range = 9999
+a.Bullets = 1
+a.ReloadTime = 0
     end)
 
 
@@ -191,8 +193,9 @@ local a = require(gun)
 a.MaxAmmo = math.huge
 a.CurrentAmmo = math.huge
 a.FireRate = 0
-a.Range = 4000
-a.Bullets = 10
+a.Range = 9999
+a.Bullets = 1
+a.ReloadTime = 0
     end)
 
 
@@ -205,8 +208,9 @@ local a = require(gun)
 a.MaxAmmo = math.huge
 a.CurrentAmmo = math.huge
 a.FireRate = 0
-a.Range = 4000
-a.Bullets = 10
+a.Range = 9999
+a.Bullets = 1
+a.ReloadTime = 0
     end)
 
     local MainSection = Main:NewSection("Teams")
