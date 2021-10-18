@@ -429,6 +429,20 @@
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6551.6333, -25.9681969, -2368.3479, -0.0950454473, -5.21444832e-10, 0.995472908, -1.1552157e-09, 1, 4.13518886e-10, -0.995472908, -1.11068288e-09, -0.0950454473)
     end)
 
+    TeleportsSection:NewButton("Hologram Planet", "Teleports you to the Hologram Planet.", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6910.97754, -26.3430882, -2345.8606, -0.0950454473, -1.58154805e-08, 0.995472908, -2.05818047e-08, 1, 1.39223006e-08, -0.995472908, -1.91653786e-08, -0.0950454473)
+    end)
+
+
+    TeleportsSection:NewButton("AirBallon Planet", "Teleports you to the AirBallon Planet.", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7271.53857, -25.9252911, -2346.19604, -0.0950454473, 5.01168245e-08, 0.995472908, 9.35570554e-08, 1, -4.14121253e-08, -0.995472908, 8.91974778e-08, -0.0950454473)
+    end)
+
+
+    TeleportsSection:NewButton("Skeleton Planet", "Teleports you to the Skeleton Planet.", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7608.10156, -26.3431225, -2326.71875, -0.0950454473, -7.33360324e-08, 0.995472908, -3.3047364e-08, 1, 7.0514254e-08, -0.995472908, -2.61956963e-08, -0.0950454473)
+    end)
+
         -- Player
     
     local Player = Window:NewTab("Player")
