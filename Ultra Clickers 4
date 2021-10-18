@@ -444,6 +444,16 @@ TeleportsSection:NewButton("Skeleton Planet", "Teleports you to the Skeleton Pla
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7608.10156, -26.3431225, -2326.71875, -0.0950454473, -7.33360324e-08, 0.995472908, -3.3047364e-08, 1, 7.0514254e-08, -0.995472908, -2.61956963e-08, -0.0950454473)
 end)
 
+
+TeleportsSection:NewButton("Tech Planet", "Teleports you to the Tech Planet.", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7935.40869, -26.3430824, -2297.02319, -0.0950454473, 5.52282309e-08, 0.995472908, 9.05932609e-08, 1, -4.68297578e-08, -0.995472908, 8.57321822e-08, -0.0950454473)
+end)
+
+
+TeleportsSection:NewButton("Squid Game", "Teleports you to the Squid Game.", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-8279.20996, -26.3430882, -2301.85083, -0.0950454473, 5.97111267e-08, 0.995472908, -4.39565184e-08, 1, -6.41795381e-08, -0.995472908, -4.98574977e-08, -0.0950454473)
+end)
+
 -- Player
 
 local Player = Window:NewTab("Player")
